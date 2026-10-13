@@ -1,0 +1,128 @@
+{
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    },
+    "runtime_evidence": {
+      "type": "string"
+    }
+  },
+  "rows": [
+    {
+      "id": {
+        "value": "turn_scheduler",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "purpose": {
+        "value": "Only the active actor advances combat",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "route": {
+        "value": "NWScript event integration candidate",
+        "verified": false,
+        "evidence": "Research candidate, not validated"
+      },
+      "runtime_evidence": {
+        "value": null,
+        "verified": false,
+        "evidence": "Requires installed game and runtime access"
+      }
+    },
+    {
+      "id": {
+        "value": "movement_control",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "purpose": {
+        "value": "Move active actor while all others wait",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "route": {
+        "value": "NWScript action queue candidate",
+        "verified": false,
+        "evidence": "Research candidate, not validated"
+      },
+      "runtime_evidence": {
+        "value": null,
+        "verified": false,
+        "evidence": "Requires installed game and runtime access"
+      }
+    },
+    {
+      "id": {
+        "value": "reaction_interrupt",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "purpose": {
+        "value": "Interrupt a triggering action for a player choice",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "route": {
+        "value": "Native event coverage must be inspected",
+        "verified": false,
+        "evidence": "Research candidate, not validated"
+      },
+      "runtime_evidence": {
+        "value": null,
+        "verified": false,
+        "evidence": "Requires installed game and runtime access"
+      }
+    },
+    {
+      "id": {
+        "value": "bg3_reader",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "purpose": {
+        "value": "Read real spell entries without copying game content",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "route": {
+        "value": "In-place PAK stream reader candidate",
+        "verified": false,
+        "evidence": "Research candidate, not validated"
+      },
+      "runtime_evidence": {
+        "value": null,
+        "verified": false,
+        "evidence": "Requires installed game and runtime access"
+      }
+    },
+    {
+      "id": {
+        "value": "party_selection",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "purpose": {
+        "value": "Control protagonist and companions on their turns",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "route": {
+        "value": "Party control and AI APIs must be inspected",
+        "verified": false,
+        "evidence": "Research candidate, not validated"
+      },
+      "runtime_evidence": {
+        "value": null,
+        "verified": false,
+        "evidence": "Requires installed game and runtime access"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Force & Initiative",
+  "modId": "3bf37660-7652-4868-a4e4-7205c42d1708",
+  "slug": "force-initiative",
+  "studioUrl": "https://melty.gg/studio/3bf37660-7652-4868-a4e4-7205c42d1708",
+  "status": "design-and-tooling-only",
+  "license": "MIT",
+  "allowRemix": true,
+  "releaseSubmitted": false,
+  "gameplayTested": false,
+  "blockers": [
+    "Installed game data inaccessible in this cloud session",
+    "No Windows/WSL PC automation bridge",
+    "KOTOR turn, movement and reaction integration unverified",
+    "BG3 spell identities and in-place archive reader unverified"
+  ]
+}

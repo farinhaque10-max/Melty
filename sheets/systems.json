@@ -1,0 +1,135 @@
+{
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "rule": {
+      "type": "string"
+    },
+    "hook": {
+      "type": "string",
+      "ref": "hooks"
+    }
+  },
+  "rows": [
+    {
+      "id": {
+        "value": "initiative",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "rule": {
+        "value": "Individual actor turns; order frozen for each round",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "turn_scheduler",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    },
+    {
+      "id": {
+        "value": "movement",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "rule": {
+        "value": "Separate movement budget; distance accounted along actual path",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "movement_control",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    },
+    {
+      "id": {
+        "value": "action",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "rule": {
+        "value": "One action per turn before spell-specific exceptions",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "turn_scheduler",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    },
+    {
+      "id": {
+        "value": "bonus_action",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "rule": {
+        "value": "One separate bonus action per turn",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "turn_scheduler",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    },
+    {
+      "id": {
+        "value": "reaction",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "rule": {
+        "value": "One reaction restored at start of own turn; prompt before spending",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "reaction_interrupt",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    },
+    {
+      "id": {
+        "value": "party_control",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "rule": {
+        "value": "Player controls protagonist and companions; enemy turns automated",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "party_selection",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    },
+    {
+      "id": {
+        "value": "spell_data",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "rule": {
+        "value": "Use actual BG3 definitions from the required installed companion",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "bg3_reader",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    }
+  ]
+}

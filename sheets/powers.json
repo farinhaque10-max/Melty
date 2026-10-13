@@ -1,0 +1,122 @@
+{
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "force_concept": {
+      "type": "string"
+    },
+    "source_spell": {
+      "type": "string"
+    },
+    "source_entry": {
+      "type": "string"
+    },
+    "resource": {
+      "type": "string",
+      "ref": "systems"
+    },
+    "hook": {
+      "type": "string",
+      "ref": "hooks"
+    }
+  },
+  "rows": [
+    {
+      "id": {
+        "value": "force_strike",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "force_concept": {
+        "value": "Ranged Force strike",
+        "verified": true,
+        "evidence": "Initial scope chosen from player answers"
+      },
+      "source_spell": {
+        "value": null,
+        "verified": false,
+        "evidence": "Identify in player BG3 data"
+      },
+      "source_entry": {
+        "value": null,
+        "verified": false,
+        "evidence": "Verify archive entry in player BG3 installation"
+      },
+      "resource": {
+        "value": "action",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "bg3_reader",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    },
+    {
+      "id": {
+        "value": "force_step",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "force_concept": {
+        "value": "Short reposition",
+        "verified": true,
+        "evidence": "Initial scope chosen from player answers"
+      },
+      "source_spell": {
+        "value": null,
+        "verified": false,
+        "evidence": "Identify in player BG3 data"
+      },
+      "source_entry": {
+        "value": null,
+        "verified": false,
+        "evidence": "Verify archive entry in player BG3 installation"
+      },
+      "resource": {
+        "value": "bonus_action",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "bg3_reader",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    },
+    {
+      "id": {
+        "value": "force_ward",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "force_concept": {
+        "value": "Defensive interrupt",
+        "verified": true,
+        "evidence": "Initial scope chosen from player answers"
+      },
+      "source_spell": {
+        "value": null,
+        "verified": false,
+        "evidence": "Identify in player BG3 data"
+      },
+      "source_entry": {
+        "value": null,
+        "verified": false,
+        "evidence": "Verify archive entry in player BG3 installation"
+      },
+      "resource": {
+        "value": "reaction",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "hook": {
+        "value": "bg3_reader",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      }
+    }
+  ]
+}

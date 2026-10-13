@@ -1,0 +1,75 @@
+{
+  "columns": {
+    "id": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "version_evidence": {
+      "type": "string"
+    },
+    "access_evidence": {
+      "type": "string"
+    }
+  },
+  "rows": [
+    {
+      "id": {
+        "value": "kotor",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "game": {
+        "value": "star-wars-kotor-2",
+        "verified": true,
+        "evidence": "Confirmed by Melty search_games/game_info"
+      },
+      "role": {
+        "value": "primary",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "version_evidence": {
+        "value": null,
+        "verified": false,
+        "evidence": "Read installed executable and game data version"
+      },
+      "access_evidence": {
+        "value": null,
+        "verified": false,
+        "evidence": "No installed game or PC bridge in cloud instance"
+      }
+    },
+    {
+      "id": {
+        "value": "bg3",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "game": {
+        "value": "baldurs-gate-3",
+        "verified": true,
+        "evidence": "Confirmed by Melty search_games/game_info"
+      },
+      "role": {
+        "value": "companion",
+        "verified": true,
+        "evidence": "Design agreed in conversation"
+      },
+      "version_evidence": {
+        "value": null,
+        "verified": false,
+        "evidence": "Read installed executable and game data version"
+      },
+      "access_evidence": {
+        "value": null,
+        "verified": false,
+        "evidence": "No installed game or PC bridge in cloud instance"
+      }
+    }
+  ]
+}
